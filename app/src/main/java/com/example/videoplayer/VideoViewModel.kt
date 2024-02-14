@@ -21,6 +21,7 @@ class VideoViewModel @Inject constructor(
 ) :ViewModel(){
 
 
+
     init {
         player.prepare()
     }
