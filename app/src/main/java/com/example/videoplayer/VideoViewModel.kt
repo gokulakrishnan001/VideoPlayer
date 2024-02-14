@@ -20,7 +20,7 @@ class VideoViewModel @Inject constructor(
     private val metaDataReader: MetaDataReader
 ) :ViewModel(){
 
-
+  val branch=1;
 
     init {
         player.prepare()
